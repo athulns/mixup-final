@@ -1,4 +1,3 @@
-```markdown
 # Mixup-Final
 
 Mixup-Final is a full-stack application that consists of a backend server and a frontend client. This README provides detailed instructions for both local development and deployment on [Render](https://render.com).
@@ -176,10 +175,10 @@ Render allows you to host your server and client separately with minimal configu
    - Connect your GitHub account and select the `athulns/mixup-final` repository.
 3. **Configure the Service:**
    - **Branch:** Select the branch (e.g., `main`).
-   - **Build Command:** 
+   - **Build Command:**  
      - For Node.js: `npm install`
      - For Python: `pip install -r requirements.txt`
-   - **Start Command:** 
+   - **Start Command:**  
      - For Node.js: `npm start`
      - For Python: e.g., `gunicorn app:app`
    - **Environment Variables:** Add variables required for production.
@@ -197,20 +196,6 @@ Render allows you to host your server and client separately with minimal configu
    - **Publish Directory:** Set the output folder (commonly `build` or `dist`).
 3. **Deploy:** Click **Create Static Site** and Render will deploy your client.
 
-### Additional Render Configurations
-
-- **CORS & API Endpoints:**  
-  If your client and server run on different domains, configure CORS on the server to allow requests from the client’s domain.
-
-- **Custom Domains:**  
-  Set up custom domains in the Render dashboard for both the server and client if required.
-
-- **Automatic Deployments:**  
-  Enable automatic deployments to trigger a new build whenever you push changes to the configured branch.
-
-- **Monitoring & Logs:**  
-  Use Render’s logging and monitoring tools to track the health of your services and troubleshoot issues.
-
 ---
 
 ## Troubleshooting
@@ -221,20 +206,12 @@ Render allows you to host your server and client separately with minimal configu
   Double-check your `.env` file settings both locally and on Render.
 - **Build Failures on Render:**  
   Review the build logs in Render to diagnose and resolve any errors during the deployment process.
-- **CORS Errors:**  
-  If you encounter CORS issues, make sure your server is configured to allow requests from your client’s domain.
 
 ---
 
 ## Contributing
 
 Contributions are welcome! Please fork the repository and create a pull request for any improvements or bug fixes.
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/YourFeature`).
-3. Commit your changes.
-4. Push to your fork.
-5. Open a pull request.
 
 ---
 
@@ -251,8 +228,3 @@ For any questions or issues, please contact [Athul Suresh N](mailto:athulsureshn
 ---
 
 Happy coding and deploying!
-```
-
----
-
-This comprehensive README covers all aspects of local development, testing, and deploying the Mixup-Final project on Render. Feel free to tailor the instructions and commands to suit your project’s specific needs.
