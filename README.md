@@ -246,7 +246,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
-For any questions or issues, please contact [Your Name](mailto:your.email@example.com).
+For any questions or issues, please contact [Athul Suresh N](mailto:athulsureshn@example.com).
 
 ---
 
